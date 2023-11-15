@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="blokade" id="skjerm">
+      <div class="stable">
+        <div class="blokade tavler">
+          <div class="name stable">HOME</div>
+          <div class="stable cursedtimer goal" id="home">0</div>
+          <div class="stable plussene">
+            <div class="pluss pluss-en cursedtimer" id="pluss-en-home">
+              <button class="cursedtimer" onclick="scoring('home',1)">+1</button>
+            </div>
+            <div class="pluss pluss-to cursedtimer" id="pluss-to-home">
+              <button class="cursedtimer" onclick="scoring('home',2)">+2</button>
+            </div>
+            <div class="pluss pluss-tre cursedtimer" id="pluss-tre-home">
+              <button class="cursedtimer" onclick="scoring('home',3)">+3</button>
+            </div>
+          </div>
+        </div>
+        <div class="blokade tavler">
+          <div class="stable name">GUEST</div>
+          <div class="stable cursedtimer goal" id="guest">0</div>
+          <div class="stable plussene">
+            <div class="pluss pluss-en cursedtimer" id="pluss-en-guest">
+              <button class="cursedtimer" onclick="scoring('guest',1)">+1</button>
+            </div>
+            <div class="pluss pluss-to cursedtimer" id="pluss-to-guest">
+              <button class="cursedtimer" onclick="scoring('guest',2)">
+                +2
+              </button>
+              <!--kommentar for git-->
+            </div>
+            <div class="pluss pluss-tre cursedtimer" id="pluss-tre-guest">
+              <button class="cursedtimer" onclick="scoring('guest',3)">+3</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--h$*6{Heading $}-->
+  </body>
+</html>

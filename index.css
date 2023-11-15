@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Cursed Timer ULiL;
+  src: url(CursedTimerULiL.ttf);
+}
+
+/*
+@font-face {
+  font-family: ;
+  src: url();
+}
+*/
+.stable {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-between;
+}
+
+.blokade {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skjerm {
+  width: 575px;
+  height: 385px;
+  background-color: #1B244A;
+;
+}
+
+.tavler {
+  width: 155px;
+  height: 120px;
+}
+
+.name {
+  width: 149px;
+  height: 36px;
+  margin-top: 68px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  line-height: 38.89px;
+  color: #EEEEEE;
+  font-weight: 700;
+}
+
+.cursedtimer {
+  font-family: Cursed Timer ULiL, Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+.goal {
+  width: 155px;
+  font-size: 90px;
+  color: #F94F6D;
+  font-weight: 400;
+  margin-top: 21px;
+  padding-left: 18px;
+  padding-right: 20px;
+  background-color: black;
+  right: auto;
+  padding-top: 12px;
+  left: -21px;
+}
+
+button {
+  font-size: 18px;
+  color: #9AABD8;
+}
+
+.plussene {
+  margin-top: 26px;
+  left: -2px;
+}
+
+.pluss > button{
+  
+  background-color: transparent;
+  border-color: #9AABD8;
+}
